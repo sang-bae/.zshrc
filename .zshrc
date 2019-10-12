@@ -78,7 +78,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $Z/z.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -111,7 +110,5 @@ alias python="python3"
 alias pip="pip3"
 alias vid="youtube-dl"
 
-eval "$(rbenv init -)"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
